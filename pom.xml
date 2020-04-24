@@ -35,7 +35,7 @@
         <maven.source.version>3.0.0</maven.source.version>
         <spring.boot.version>2.2.2.RELEASE</spring.boot.version>
         <spring.cloud.version>Finchley.SR4</spring.cloud.version>
-
+        <jackson.version>2.10.2</jackson.version>
         <jedis.version>2.9.0</jedis.version>
         <mysql.version>8.0.11</mysql.version>
         <h2.version>1.4.200</h2.version>
@@ -271,6 +271,24 @@
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
                 <version>${servlet.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson.version}</version>
             </dependency>
 
         </dependencies>
