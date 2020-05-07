@@ -58,7 +58,7 @@
         <jjwt.version>0.9.1</jjwt.version>
         <servlet.version>3.0.1</servlet.version>
         <nacos.cloud.version>2.0.2.RELEASE</nacos.cloud.version>
-        <nacos.boot.version>0.2.2</nacos.boot.version>
+        <nacos.boot.version>0.2.6</nacos.boot.version>
         <dubbo.version>2.6.8</dubbo.version>
         <ali-context.version>1.0.6</ali-context.version>
 
