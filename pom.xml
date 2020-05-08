@@ -322,6 +322,12 @@
                 <version>${nacos.boot.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>nacos-discovery-spring-boot-starter</artifactId>
+                <version>${nacos.boot.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
