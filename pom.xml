@@ -60,7 +60,7 @@
         <servlet.version>3.0.1</servlet.version>
         <nacos.cloud.version>2.2.1.RELEASE</nacos.cloud.version>
         <nacos.boot.version>0.2.6</nacos.boot.version>
-        <dubbo.version>2.7.6</dubbo.version>
+        <dubbo.version>2.6.8</dubbo.version>
         <ali-context.version>1.0.6</ali-context.version>
     </properties>
 
