@@ -33,8 +33,9 @@
         <maven.deploy.version>3.0.0-M1</maven.deploy.version>
         <maven.compiler.version>3.8.1</maven.compiler.version>
         <maven.source.version>3.0.0</maven.source.version>
-        <spring.boot.version>2.2.2.RELEASE</spring.boot.version>
-        <spring.cloud.version>Finchley.SR4</spring.cloud.version>
+        <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
+        <spring.cloud.version>Hoxton.SR3</spring.cloud.version>
+        <alibaba.cloud.version>2.2.1.RELEASE</alibaba.cloud.version>
         <jackson.version>2.10.2</jackson.version>
         <jedis.version>2.9.0</jedis.version>
         <mysql.version>8.0.11</mysql.version>
@@ -57,9 +58,9 @@
         <hikaricp.version>3.4.1</hikaricp.version>
         <jjwt.version>0.9.1</jjwt.version>
         <servlet.version>3.0.1</servlet.version>
-        <nacos.cloud.version>2.0.2.RELEASE</nacos.cloud.version>
+        <nacos.cloud.version>2.2.1.RELEASE</nacos.cloud.version>
         <nacos.boot.version>0.2.6</nacos.boot.version>
-        <dubbo.version>2.6.8</dubbo.version>
+        <dubbo.version>2.7.6</dubbo.version>
         <ali-context.version>1.0.6</ali-context.version>
 
     </properties>
@@ -79,6 +80,14 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>${spring.cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${alibaba.cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
